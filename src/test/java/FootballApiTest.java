@@ -39,7 +39,7 @@ public class FootballApiTest extends FootballApiConfig {
         System.out.println(responseBody);
     }
 
-    //Extract body of a HTTP Response
+    //Extract body of HTTP Response
     @Test
     public void getAllTeamData_DoCheckFirst(){
         Response response =
